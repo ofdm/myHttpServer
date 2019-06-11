@@ -15,9 +15,9 @@
 - 压测工具：[WebBench](https://github.com/ofdm/myHttpServer/blob/master/src/WebBench)
 
 ## 用法
-修改http_conn.cpp中root的地址（html路径）
-make
-./myHttpServer ip port
+* 修改http_conn.cpp中root的地址（html路径）
+* make
+* ./myHttpServer ip port
 
 ## 技术点
 * 使用了epoll边沿触发IO多路复用技术
